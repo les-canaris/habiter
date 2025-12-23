@@ -11,13 +11,13 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
     
     <style>
         :root {
             --color-bg: #faf9f7;
-            --color-text: #2c2c2c;
-            --color-text-light: #5a5a5a;
+            --color-text: #1a1a1a;
+            --color-text-light: #4a4a4a;
             --color-accent: #8b7355;
             --color-separator: #d4cfc7;
             --font-serif: 'Cormorant Garamond', Georgia, serif;
@@ -49,6 +49,7 @@
 
         body {
             font-family: var(--font-serif);
+            font-weight: 500;
             background-color: var(--color-bg);
             color: var(--color-text);
             line-height: 1.75;
@@ -74,7 +75,7 @@
         h1 {
             font-family: var(--font-serif);
             font-size: 4rem;
-            font-weight: 400;
+            font-weight: 600;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--color-text);
@@ -655,6 +656,7 @@
         <footer>
             <div class="footer-content">
                 <p>Ce texte est libre. Partagez-le, transformez-le, vivez-le.</p>
+                <p style="margin-top: 1rem; font-style: italic;">Ce texte dialogue avec <a href="https://les-canaris.github.io" style="color: var(--color-accent);">Les Canaris</a>, qui propose des formes d'action collective.</p>
                 <button class="print-btn" onclick="window.print()">🖨️ Imprimer</button>
             </div>
         </footer>
